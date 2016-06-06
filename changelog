@@ -1,0 +1,7 @@
+2016-06-06	eb	Initialisierung IRR
+				irr cf0 cf1 cf2 ... cfn             Berechnet den IRR
+				irr -?                              zeigt eine Info-Seite an
+				irr -d DELAY cf0 cf1 cf2 ... cfn    definiert den Delay der Folgejahre
+                                                    DELAY=0   : Vorschüssig
+                                                    DELAY=0.5 : Halbjährlich nachschüssig
+                                                    DELAY=1   : Nachschüssig
